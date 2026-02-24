@@ -38,9 +38,9 @@
     --swiper-wrapper-transition-timing-function,
     initial
   );
-  box-sizing: content-box;
+  /* box-sizing: content-box;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 .swiper-android .swiper-slide,
 .swiper-ios .swiper-slide,
@@ -72,7 +72,7 @@
   align-items: flex-start;
   transition-property: transform, height;
 }
-.swiper-backface-hidden .swiper-slide {
+.swiper-backface-hidden .swiperz-slide {
   transform: translateZ(0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
